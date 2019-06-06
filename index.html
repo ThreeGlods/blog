@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Title</title>
+    <title>首页</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="with-device-width, inital-scale=1.8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
@@ -9,15 +9,16 @@
 </head>
 <body>
 <!--导航 -->
-<nav class="ui inverted attached segment m-padded-tb-mini">
+<nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
     <div class="ui container">
-        <div class="ui inverted secondary menu">
+        <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">Blog</h2>
-            <a href="#" class="item"><i class="home icon"></i>首页</a>
-            <a href="#" class="item"><i class="idea icon"></i>分类</a>
-            <a href="#" class="item"><i class="tags icon"></i>标签</a>
-            <a href="#" class="item"><i class="info icon"></i>关于我</a>
-            <div class="right item">
+            <a href="#" class="active m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+            <div class="right item m-mobile-hide">
                 <div class="ui icon inverted transparent input ">
                     <input type="text" placeholder="Search...">
                     <i class="search link icon"></i>
@@ -25,12 +26,15 @@
             </div>
         </div>
     </div>
+    <a href="#" class="ui menu toggle black icon button m-top-right m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
 </nav>
 
 <!--中间内容 -->
-<div class="m-container m-padded-tb-lager">
+<div class="m-container m-padded-tb-big">
     <div class="ui container">
-        <div class="ui grid">
+        <div class="ui stackable grid">
             <!--左边博客列表-->
             <div class="eleven wide column">
                 <!--header-->
@@ -48,11 +52,11 @@
                 <div class="ui attached  segment">
 
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
-                                <div class="ui grid">
+                                <div class="ui stackable grid">
                                 <div class="eleven wide column">
                                     <div class="ui mini horizontal link list">
                                         <div class="item">
@@ -86,7 +90,7 @@
 
                     </div>
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
@@ -124,7 +128,7 @@
 
                     </div>
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
@@ -162,7 +166,7 @@
 
                     </div>
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
@@ -200,7 +204,7 @@
 
                     </div>
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
@@ -238,7 +242,7 @@
 
                     </div>
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
@@ -276,7 +280,7 @@
 
                     </div>
                     <div class="ui padded vertical segment m-padded-tb-lager">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
                                 <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都这么做而已......</p>
@@ -414,7 +418,7 @@
                     </div>
                 </div>
                 <!--二维码-->
-                <h4 class="ui horizontal divider header">扫码关注我</h4>
+                <h4 class="ui horizontal divider header m-margin-top-large">扫码关注我</h4>
                 <div class="ui centered card" style="width: 11em">
                     <img src="./static/image/wechat.png" class="ui rounded image">
                 </div>
@@ -423,22 +427,11 @@
     </div>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 </div>
 <!--底部footer -->
 <footer class="ui inverted vertical segment m-padded-tb-massive">
     <div class="ui center aligned container">
-        <div class="ui inverted divided grid">
+        <div class="ui inverted divided stackable grid">
             <div class="three wide column">
                 <div class="ui inverted link list">
                     <div class="item">
@@ -448,16 +441,18 @@
             </div>
             <div class="three wide column">
                 <h4 class="ui inverted header m-text-thin m-text-spaced ">最新博客</h4>
-                <div class="ui inverted link list"></div>
-                <a href="#" class="item">用户故事（User Story）</a>
-                <a href="#" class="item">用户故事（User Story）</a>
-                <a href="#" class="item">用户故事（User Story）</a>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事（User Story）</a>
+                    <a href="#" class="item">用户故事（User Story）</a>
+                    <a href="#" class="item">用户故事（User Story）</a>
+                </div>
             </div>
             <div class="three wide column">
                 <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
-                <div class="ui inverted link list"></div>
-                <a href="#" class="item">极品小黑</a>
-                <a href="www.jipinxiaohei.com" class="item">www.jipinxiaohei.com</a>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">极品小黑</a>
+                    <a href="www.jipinxiaohei.com" class="item">www.jipinxiaohei.com</a>
+                </div>
             </div>
             <div class="seven wide column">
                 <h4 class="ui inverted header m-text-thin m-text-spaced ">介绍</h4>
@@ -466,12 +461,19 @@
             </div>
         </div>
         <div class="ui inverted section divider"></div>
-        <p class="m-text-thin m-text-spaced m-opacity-mini"> Company © 2019 This line of text is meant to be treated as fine print.</p>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny"> Company © 2019 This line of text is meant to be treated as fine print.</p>
     </div>
 
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
+<script>
+    $('.menu.toggle').click(function(){
+            $('.m-item').toggleClass('m-mobile-hide');
+        }
+    )
+
+</script>
 </body>
 </html>
