@@ -5,7 +5,10 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="with-device-width, inital-scale=1.8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/typo.css">
     <link rel="stylesheet" href="./static/css/me.css">
+    <link rel="stylesheet" href="./static/css/animate.css">
+    <link rel="stylesheet" href="./static/lib/prism/prism.css">
 </head>
 <body>
 <!--导航 -->
@@ -32,7 +35,7 @@
 </nav>
 
 <!--中间内容 -->
-<div class="m-container-small m-padded-tb-big">
+<div class="m-container-small m-padded-tb-big animated fadeIn">
     <div class="ui container">
         <div class="ui top attached segment">
             <div class="ui  horizontal link list">
@@ -61,7 +64,8 @@
             </div>
             <h2 class="ui center aligned header">斗破苍穹</h2>
             <br>
-            <div id="content" class="m-padded-lr-responsive m-padded-tb-lager">
+            <div id="content" class="typo typo-selection m-padded-lr-responsive m-padded-tb-lager">
+                <pre><code class="language-css">p { color: red }</code></pre>
                 讲述了天才少年萧炎在创造了家族空前绝后的修炼纪录后突然成了废人，种种打击接踵而至。就在他即将绝望的时候，一缕灵魂从他手上的戒指里浮现，一扇全新的大门在面前开启，经过艰苦修炼最终成就辉煌的故事。
                 这里是属于斗气的世界，没有花俏艳丽的魔法，有的，仅仅是繁衍到巅峰
                 的斗气！
@@ -70,6 +74,7 @@
                 三十年河东，三十年河西，莫欺少年穷！ 年仅15岁的萧家废物，于此地，立下了誓言，从今以后便一步步走向斗气大陆巅峰！
                 经历了一系列的磨练，收异火，寻宝物，炼丹药，斗魂族。
                 最终成为斗帝，为解开斗帝失踪之谜而前往大千世界....
+
             </div>
             <!--标签-->
             <div class="m-padded-lr-responsive">
@@ -251,7 +256,7 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-
+<script src="./static/lib/prism/prism.js"></script>
 <script>
     $('.menu.toggle').click(function(){
             $('.m-item').toggleClass('m-mobile-hide');
